@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarDealership.Controllers
 {
-  public class DealershipController : Controller
+  public class HomeController : Controller
   {
     [Route("/")]
     public ActionResult Dealership() { return View(); }
